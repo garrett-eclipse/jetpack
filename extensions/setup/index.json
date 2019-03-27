@@ -18,5 +18,5 @@
 		"videopress",
 		"wordads"
 	],
-	"beta": [ "seo" ]
+	"beta": [ "seo", "membership-button" ]
 }
