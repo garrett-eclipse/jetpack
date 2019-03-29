@@ -1237,7 +1237,16 @@
     "@babel/runtime" "^7.3.1"
     "@wordpress/dom-ready" "^2.2.0"
 
-"@wordpress/api-fetch@2.2.8", "@wordpress/api-fetch@^2.2.8":
+"@wordpress/api-fetch@3.1.0", "@wordpress/api-fetch@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/api-fetch/-/api-fetch-3.1.0.tgz#38db4c22c0de4eb8c77361bc41f6b49fbcfeade9"
+  integrity sha512-WCXWuSRzQwmjdS2RPM22ni3Teuu6JgE5EH7uKPO9KrvCUI+FVhvPZOIgb2q9QI6E63jbXOe/Uy8SnlNBFnlKBw==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    "@wordpress/i18n" "^3.3.0"
+    "@wordpress/url" "^2.5.0"
+
+"@wordpress/api-fetch@^2.2.8":
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/@wordpress/api-fetch/-/api-fetch-2.2.8.tgz#be9a586ccb3f5c31201d75a76eabd4b7bc2a16b2"
   integrity sha512-mbdP9GvDe8Ojv8cobk30mfg2btEZDQEe7IgO+rGSlvVlHC88U8cc2VgOLNX6c9/6/sCvkoGd4Tsy85VbdTlTXw==
@@ -1246,15 +1255,6 @@
     "@wordpress/hooks" "^2.0.5"
     "@wordpress/i18n" "^3.1.1"
     "@wordpress/url" "^2.3.3"
-
-"@wordpress/api-fetch@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/api-fetch/-/api-fetch-3.1.0.tgz#38db4c22c0de4eb8c77361bc41f6b49fbcfeade9"
-  integrity sha512-WCXWuSRzQwmjdS2RPM22ni3Teuu6JgE5EH7uKPO9KrvCUI+FVhvPZOIgb2q9QI6E63jbXOe/Uy8SnlNBFnlKBw==
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    "@wordpress/i18n" "^3.3.0"
-    "@wordpress/url" "^2.5.0"
 
 "@wordpress/autop@^2.0.2", "@wordpress/autop@^2.2.0":
   version "2.2.0"
