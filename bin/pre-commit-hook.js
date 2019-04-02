@@ -38,6 +38,9 @@ function phpcsFilesToFilter( file ) {
 		'modules/module-extras.php',
 		'modules/module-info.php',
 		'functions.opengraph.php',
+		'modules/memberships/class-jetpack-memberships.php',
+		'_inc/lib/core-api/wpcom-endpoints/memberships.php',
+		'extensions/blocks/membership-button/membership-button.php',
 	];
 
 	if ( -1 !== whitelist.findIndex( filePath => file.startsWith( filePath ) ) ) {
